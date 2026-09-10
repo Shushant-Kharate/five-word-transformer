@@ -1,0 +1,281 @@
+{
+  "device": "cuda",
+  "checkpoint_epoch_zero_based": 14,
+  "input": "stop me she can not",
+  "expected_target": "she can not stop me",
+  "input_word_token_ids": {
+    "stop": 91,
+    "me": 23,
+    "she": 9,
+    "can": 11,
+    "not": 7
+  },
+  "encoder_tokens": [
+    "[SOS]",
+    "stop",
+    "me",
+    "she",
+    "can",
+    "not",
+    "[EOS]"
+  ],
+  "encoder_input_shape": [
+    1,
+    7
+  ],
+  "encoder_mask_shape": [
+    1,
+    1,
+    1,
+    7
+  ],
+  "source_embedding_shape": [
+    1,
+    7,
+    64
+  ],
+  "source_positional_shape": [
+    1,
+    7,
+    64
+  ],
+  "encoder_output_shape": [
+    1,
+    7,
+    64
+  ],
+  "decoding_steps": [
+    {
+      "step": 1,
+      "decoder_input_tokens": [
+        "[SOS]"
+      ],
+      "decoder_input_shape": [
+        1,
+        1
+      ],
+      "decoder_mask_shape": [
+        1,
+        1,
+        1
+      ],
+      "decoder_output_shape": [
+        1,
+        1,
+        64
+      ],
+      "full_vocabulary_logits_shape": [
+        1,
+        2412
+      ],
+      "allowed_source_candidates": [
+        {
+          "token": "she",
+          "token_id": 9,
+          "logit": 10.696776390075684
+        },
+        {
+          "token": "not",
+          "token_id": 7,
+          "logit": 2.5498173236846924
+        },
+        {
+          "token": "me",
+          "token_id": 23,
+          "logit": -0.1472034901380539
+        },
+        {
+          "token": "can",
+          "token_id": 11,
+          "logit": -0.8899914622306824
+        },
+        {
+          "token": "stop",
+          "token_id": 91,
+          "logit": -2.425661325454712
+        }
+      ],
+      "selected_token": "she"
+    },
+    {
+      "step": 2,
+      "decoder_input_tokens": [
+        "[SOS]",
+        "she"
+      ],
+      "decoder_input_shape": [
+        1,
+        2
+      ],
+      "decoder_mask_shape": [
+        1,
+        2,
+        2
+      ],
+      "decoder_output_shape": [
+        1,
+        2,
+        64
+      ],
+      "full_vocabulary_logits_shape": [
+        1,
+        2412
+      ],
+      "allowed_source_candidates": [
+        {
+          "token": "can",
+          "token_id": 11,
+          "logit": 10.83691692352295
+        },
+        {
+          "token": "stop",
+          "token_id": 91,
+          "logit": 2.0973236560821533
+        },
+        {
+          "token": "not",
+          "token_id": 7,
+          "logit": -0.26232221722602844
+        },
+        {
+          "token": "me",
+          "token_id": 23,
+          "logit": -3.862351417541504
+        }
+      ],
+      "selected_token": "can"
+    },
+    {
+      "step": 3,
+      "decoder_input_tokens": [
+        "[SOS]",
+        "she",
+        "can"
+      ],
+      "decoder_input_shape": [
+        1,
+        3
+      ],
+      "decoder_mask_shape": [
+        1,
+        3,
+        3
+      ],
+      "decoder_output_shape": [
+        1,
+        3,
+        64
+      ],
+      "full_vocabulary_logits_shape": [
+        1,
+        2412
+      ],
+      "allowed_source_candidates": [
+        {
+          "token": "not",
+          "token_id": 7,
+          "logit": 11.109046936035156
+        },
+        {
+          "token": "me",
+          "token_id": 23,
+          "logit": 2.318894386291504
+        },
+        {
+          "token": "stop",
+          "token_id": 91,
+          "logit": 1.717175006866455
+        }
+      ],
+      "selected_token": "not"
+    },
+    {
+      "step": 4,
+      "decoder_input_tokens": [
+        "[SOS]",
+        "she",
+        "can",
+        "not"
+      ],
+      "decoder_input_shape": [
+        1,
+        4
+      ],
+      "decoder_mask_shape": [
+        1,
+        4,
+        4
+      ],
+      "decoder_output_shape": [
+        1,
+        4,
+        64
+      ],
+      "full_vocabulary_logits_shape": [
+        1,
+        2412
+      ],
+      "allowed_source_candidates": [
+        {
+          "token": "stop",
+          "token_id": 91,
+          "logit": 11.044573783874512
+        },
+        {
+          "token": "me",
+          "token_id": 23,
+          "logit": -3.470427989959717
+        }
+      ],
+      "selected_token": "stop"
+    },
+    {
+      "step": 5,
+      "decoder_input_tokens": [
+        "[SOS]",
+        "she",
+        "can",
+        "not",
+        "stop"
+      ],
+      "decoder_input_shape": [
+        1,
+        5
+      ],
+      "decoder_mask_shape": [
+        1,
+        5,
+        5
+      ],
+      "decoder_output_shape": [
+        1,
+        5,
+        64
+      ],
+      "full_vocabulary_logits_shape": [
+        1,
+        2412
+      ],
+      "allowed_source_candidates": [
+        {
+          "token": "me",
+          "token_id": 23,
+          "logit": 10.676987648010254
+        }
+      ],
+      "selected_token": "me"
+    }
+  ],
+  "generated_tokens": [
+    "[SOS]",
+    "she",
+    "can",
+    "not",
+    "stop",
+    "me",
+    "[EOS]"
+  ],
+  "prediction": "she can not stop me",
+  "exact_match": true,
+  "important_observation": "training predicts over 2412 vocabulary tokens; inference scores all 2412 and then selects only among unused source token IDs"
+}

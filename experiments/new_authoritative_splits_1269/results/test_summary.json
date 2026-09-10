@@ -1,0 +1,37 @@
+{
+  "evaluation_type": "final held-out test evaluation",
+  "evaluated_at_utc": "2026-08-19T13:10:25.063609+00:00",
+  "checkpoint": "C:\\Users\\Shushant\\Desktop\\5 word transformer\\experiments\\new_authoritative_splits_1269\\weights\\best_model.pt",
+  "checkpoint_epoch": 3,
+  "checkpoint_global_step": 128,
+  "checkpoint_training_loss": 6.452140588967287,
+  "checkpoint_validation_metrics": {
+    "validation_loss": 6.749327659606934,
+    "records": 128,
+    "exact_matches": 6,
+    "exact_match_accuracy": 0.046875,
+    "word_position_accuracy": 0.33125,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0
+  },
+  "test_file": "C:\\Users\\Shushant\\Desktop\\5 word transformer\\data\\test.jsonl",
+  "configuration": {
+    "batch_size": 32,
+    "seq_len": 7,
+    "d_model": 64,
+    "layers": 2,
+    "heads": 4,
+    "d_ff": 256,
+    "dropout": 0.1,
+    "seed": 42
+  },
+  "metrics": {
+    "test_loss": 6.72782903956616,
+    "records": 127,
+    "exact_matches": 1,
+    "exact_match_accuracy": 0.007874015748031496,
+    "word_position_accuracy": 0.28188976377952757,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0
+  }
+}

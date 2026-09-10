@@ -1,0 +1,57 @@
+{
+  "evaluation_split": "validation only",
+  "protected_test_opened": false,
+  "checkpoint_epoch_human": 15,
+  "records": 54540,
+  "word_positions": 272700,
+  "parameter_allocation": {
+    "total": 697708,
+    "source_embedding": 154368,
+    "target_embedding": 154368,
+    "vocabulary_projection": 156780,
+    "encoder": 99584,
+    "decoder": 132608,
+    "three_untied_lexical_matrices": 465516,
+    "lexical_fraction": 0.6672074850797182
+  },
+  "teacher_forced_unrestricted": {
+    "word_accuracy": 0.8201870322227478,
+    "five_word_exact_accuracy": 0.48755040764808655,
+    "top1_illegal_under_remaining_source_rate": 0.07082508250825083,
+    "target_rank_in_full_vocabulary": {
+      "mean": 110.04332233223322,
+      "median": 1.0,
+      "p90": 68.0,
+      "p99": 2308.0,
+      "maximum": 2412
+    },
+    "mean_target_probability": 0.7417482674969461
+  },
+  "teacher_forced_oracle_remaining_source": {
+    "word_accuracy": 0.8745031356811523,
+    "five_word_exact_accuracy": 0.5697469711303711,
+    "mean_probability_mass_on_legal_remaining_words": 0.8294954730472411,
+    "target_beats_every_illegal_token_rate": 0.8375247524752475,
+    "target_beats_other_legal_words_rate": 0.8745031169783645
+  },
+  "autoregressive_source_constrained": {
+    "five_word_exact_accuracy": 0.5697469711303711
+  },
+  "error_attribution": {
+    "records_oracle_teacher_forced_exact_but_greedy_wrong": 0,
+    "rate_oracle_teacher_forced_exact_but_greedy_wrong": 0.0,
+    "records_oracle_teacher_forced_wrong": 23466,
+    "rate_oracle_teacher_forced_wrong": 0.4302530288696289,
+    "records_greedy_correct_despite_oracle_teacher_forced_not_exact": 0
+  },
+  "architectural_facts": {
+    "source_positional_encoding_applied_to_shuffled_input": true,
+    "source_and_target_embeddings_tied": false,
+    "target_embedding_and_projection_tied": false,
+    "training_output_classes": 2412,
+    "inference_legal_word_choices": "at most 5 and decreases each step",
+    "label_smoothing_probability_assigned_across_illegal_vocabulary": 0.1,
+    "layer_norm_uses_sample_standard_deviation": true,
+    "layer_norm_epsilon_added_after_standard_deviation": true
+  }
+}

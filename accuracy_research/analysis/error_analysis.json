@@ -1,0 +1,339 @@
+{
+  "validation_records": 54540,
+  "validation_target_groups": 458,
+  "baseline_exact_records": 31074,
+  "baseline_exact_accuracy": 0.5697469746974697,
+  "target_group_outcomes": {
+    "all_permutations_correct": 252,
+    "no_permutations_correct": 188,
+    "partially_correct": 18,
+    "single_prediction_for_all_input_permutations": 411,
+    "mean_distinct_predictions": 1.1222707423580787,
+    "mean_modal_share": 0.9796943231441047
+  },
+  "decoding_only_opportunities": {
+    "lexicographically_canonical_source_exact_accuracy": 0.5720572057205721,
+    "all_source_permutations_modal_vote_exact_accuracy": 0.5720572057205721,
+    "oracle_if_any_source_permutation_prediction_is_correct": 0.5896589658965896,
+    "note": "canonical and modal methods use no target at inference; oracle is diagnostic only"
+  },
+  "error_distance": {
+    "hamming_wrong_positions": {
+      "0": 31074,
+      "2": 7826,
+      "3": 6215,
+      "4": 5695,
+      "5": 3730
+    },
+    "kendall_inversions": {
+      "0": 31074,
+      "1": 5399,
+      "2": 6067,
+      "3": 4813,
+      "4": 3400,
+      "5": 1751,
+      "6": 754,
+      "7": 671,
+      "8": 303,
+      "9": 264,
+      "10": 44
+    }
+  },
+  "linguistic_heuristic_categories": {
+    "contains_negation": {
+      "present": {
+        "target_groups": 46,
+        "records": 5520,
+        "exact_records": 4080,
+        "record_weighted_exact_accuracy": 0.7391304347826086,
+        "mean_target_exact_accuracy": 0.7391304347826086
+      },
+      "absent": {
+        "target_groups": 412,
+        "records": 49020,
+        "exact_records": 26994,
+        "record_weighted_exact_accuracy": 0.5506731946144431,
+        "mean_target_exact_accuracy": 0.5508495145631068
+      }
+    },
+    "contains_modal": {
+      "present": {
+        "target_groups": 65,
+        "records": 7800,
+        "exact_records": 5399,
+        "record_weighted_exact_accuracy": 0.6921794871794872,
+        "mean_target_exact_accuracy": 0.6921794871794872
+      },
+      "absent": {
+        "target_groups": 393,
+        "records": 46740,
+        "exact_records": 25675,
+        "record_weighted_exact_accuracy": 0.5493153615746684,
+        "mean_target_exact_accuracy": 0.5495122985581001
+      }
+    },
+    "contains_auxiliary": {
+      "present": {
+        "target_groups": 161,
+        "records": 19140,
+        "exact_records": 11373,
+        "record_weighted_exact_accuracy": 0.5942006269592477,
+        "mean_target_exact_accuracy": 0.5948757763975154
+      },
+      "absent": {
+        "target_groups": 297,
+        "records": 35400,
+        "exact_records": 19701,
+        "record_weighted_exact_accuracy": 0.5565254237288135,
+        "mean_target_exact_accuracy": 0.556144781144781
+      }
+    },
+    "contains_preposition": {
+      "present": {
+        "target_groups": 191,
+        "records": 22860,
+        "exact_records": 12685,
+        "record_weighted_exact_accuracy": 0.5548993875765529,
+        "mean_target_exact_accuracy": 0.5560645724258289
+      },
+      "absent": {
+        "target_groups": 267,
+        "records": 31680,
+        "exact_records": 18389,
+        "record_weighted_exact_accuracy": 0.5804608585858586,
+        "mean_target_exact_accuracy": 0.5795568039950062
+      }
+    },
+    "contains_pronoun": {
+      "present": {
+        "target_groups": 288,
+        "records": 34440,
+        "exact_records": 21617,
+        "record_weighted_exact_accuracy": 0.62767131242741,
+        "mean_target_exact_accuracy": 0.6289641203703705
+      },
+      "absent": {
+        "target_groups": 170,
+        "records": 20100,
+        "exact_records": 9457,
+        "record_weighted_exact_accuracy": 0.47049751243781096,
+        "mean_target_exact_accuracy": 0.4694607843137255
+      }
+    },
+    "contains_ly_adverb": {
+      "present": {
+        "target_groups": 42,
+        "records": 5040,
+        "exact_records": 1890,
+        "record_weighted_exact_accuracy": 0.375,
+        "mean_target_exact_accuracy": 0.375
+      },
+      "absent": {
+        "target_groups": 416,
+        "records": 49500,
+        "exact_records": 29184,
+        "record_weighted_exact_accuracy": 0.5895757575757575,
+        "mean_target_exact_accuracy": 0.5894230769230769
+      }
+    },
+    "contains_repeated_word": {
+      "present": {
+        "target_groups": 7,
+        "records": 420,
+        "exact_records": 240,
+        "record_weighted_exact_accuracy": 0.5714285714285714,
+        "mean_target_exact_accuracy": 0.5714285714285714
+      },
+      "absent": {
+        "target_groups": 451,
+        "records": 54120,
+        "exact_records": 30834,
+        "record_weighted_exact_accuracy": 0.5697339246119734,
+        "mean_target_exact_accuracy": 0.5697339246119734
+      }
+    }
+  },
+  "minimum_training_word_frequency_bins": {
+    "1": {
+      "target_groups": 63,
+      "records": 7500,
+      "exact_records": 3634,
+      "record_weighted_exact_accuracy": 0.4845333333333333,
+      "mean_target_exact_accuracy": 0.48068783068783066
+    },
+    "2_to_5": {
+      "target_groups": 142,
+      "records": 16980,
+      "exact_records": 8758,
+      "record_weighted_exact_accuracy": 0.5157832744405183,
+      "mean_target_exact_accuracy": 0.5139671361502347
+    },
+    "6_to_20": {
+      "target_groups": 207,
+      "records": 24660,
+      "exact_records": 15202,
+      "record_weighted_exact_accuracy": 0.6164639091646391,
+      "mean_target_exact_accuracy": 0.6168276972624798
+    },
+    "over_20": {
+      "target_groups": 46,
+      "records": 5400,
+      "exact_records": 3480,
+      "record_weighted_exact_accuracy": 0.6444444444444445,
+      "mean_target_exact_accuracy": 0.6521739130434783
+    }
+  },
+  "top_repeated_validation_error_pairs": [
+    {
+      "target": "he can be counted on",
+      "prediction": "he can be on counted",
+      "records": 120
+    },
+    {
+      "target": "how tall is that tower",
+      "prediction": "how is that tower tall",
+      "records": 120
+    },
+    {
+      "target": "she is gonna kill me",
+      "prediction": "she is kill me gonna",
+      "records": 120
+    },
+    {
+      "target": "he eats nothing but fruit",
+      "prediction": "he eats but nothing fruit",
+      "records": 120
+    },
+    {
+      "target": "i thought he was rich",
+      "prediction": "i was thought he rich",
+      "records": 120
+    },
+    {
+      "target": "what is he doing here",
+      "prediction": "what is doing here he",
+      "records": 120
+    },
+    {
+      "target": "i do not think so",
+      "prediction": "i think so do not",
+      "records": 120
+    },
+    {
+      "target": "only one person survived accident",
+      "prediction": "survived only one accident person",
+      "records": 120
+    },
+    {
+      "target": "suddenly all lights went out",
+      "prediction": "all lights went out suddenly",
+      "records": 120
+    },
+    {
+      "target": "all he does is sleep",
+      "prediction": "he does all sleep is",
+      "records": 120
+    },
+    {
+      "target": "this is by far best",
+      "prediction": "best is this by far",
+      "records": 120
+    },
+    {
+      "target": "it is now or never",
+      "prediction": "is it never or now",
+      "records": 120
+    },
+    {
+      "target": "he reads paper every morning",
+      "prediction": "he reads paper morning every",
+      "records": 120
+    },
+    {
+      "target": "she is second year student",
+      "prediction": "she is second student year",
+      "records": 120
+    },
+    {
+      "target": "we will soon know truth",
+      "prediction": "we will know truth soon",
+      "records": 120
+    },
+    {
+      "target": "she goes to night school",
+      "prediction": "she goes to school night",
+      "records": 120
+    },
+    {
+      "target": "he called taxi for me",
+      "prediction": "he called me for taxi",
+      "records": 120
+    },
+    {
+      "target": "i have to learn japanese",
+      "prediction": "i have to japanese learn",
+      "records": 120
+    },
+    {
+      "target": "follow your sister is example",
+      "prediction": "follow example is your sister",
+      "records": 120
+    },
+    {
+      "target": "his new movie is disappointing",
+      "prediction": "his new is disappointing movie",
+      "records": 120
+    },
+    {
+      "target": "that one is all yours",
+      "prediction": "that is all yours one",
+      "records": 120
+    },
+    {
+      "target": "mind if i join you",
+      "prediction": "if i join you mind",
+      "records": 120
+    },
+    {
+      "target": "let us wait and see",
+      "prediction": "let us see wait and",
+      "records": 120
+    },
+    {
+      "target": "can somebody please help me",
+      "prediction": "can somebody help me please",
+      "records": 120
+    },
+    {
+      "target": "i already spoke to him",
+      "prediction": "i spoke to him already",
+      "records": 120
+    },
+    {
+      "target": "she found her lost keys",
+      "prediction": "she found her keys lost",
+      "records": 120
+    },
+    {
+      "target": "please lock our front gate",
+      "prediction": "please lock front gate our",
+      "records": 120
+    },
+    {
+      "target": "water feels pleasantly cool today",
+      "prediction": "cool water feels pleasantly today",
+      "records": 120
+    },
+    {
+      "target": "never pack clothing without permission",
+      "prediction": "never pack without permission clothing",
+      "records": 120
+    },
+    {
+      "target": "please remove your sports shoes",
+      "prediction": "please remove your shoes sports",
+      "records": 120
+    }
+  ],
+  "protected_test_opened": false
+}

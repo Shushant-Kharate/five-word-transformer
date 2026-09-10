@@ -1,0 +1,50 @@
+{
+  "source": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\dataset_20500.jsonl",
+  "source_sha256": "11a13f56048c8f9c4ec7a89d07076c22700a1b18c4a40f5911de238285d98710",
+  "method": "deterministic target-group 80:10:10 split before augmentation",
+  "seed": 42,
+  "split_counts": {
+    "train": 16400,
+    "test": 2050,
+    "validation": 2050
+  },
+  "tokenizer": {
+    "path": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\prepared_20500\\tokenizer.json",
+    "sha256": "86f946e3df4ce1faa32d59e8f0bddc43ad77296b271e479ce42e55af906b9f95",
+    "training_source": "training targets only",
+    "model": "WordLevel",
+    "pre_tokenizer": "Whitespace",
+    "special_tokens": [
+      "[UNK]",
+      "[PAD]",
+      "[SOS]",
+      "[EOS]"
+    ],
+    "vocabulary_size": 3406
+  },
+  "files": {
+    "train": {
+      "path": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\prepared_20500\\splits\\train.jsonl",
+      "sha256": "08f47790e33a73c05b0e5ca023525c42ce0f218f25f57af7f77728f21ddf11eb"
+    },
+    "validation": {
+      "path": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\prepared_20500\\splits\\validation.jsonl",
+      "sha256": "2c7ad32d5e9c29cfc3aeeef2bc2c16c65d4c8360bbccc2db4df040f20f7237e9"
+    },
+    "test": {
+      "path": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\prepared_20500\\splits\\test.jsonl",
+      "sha256": "0341aafbec4be597e7b3b2e8a1807378c413c187e0a51c60426a9d309c405460"
+    }
+  },
+  "assignment_file": {
+    "path": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\prepared_20500\\split_assignments.jsonl",
+    "sha256": "d33de074435c6b8a424ba6d26c506e22a7b07a4dfbd49c81c7582a97e13da518"
+  },
+  "validation": {
+    "no_target_overlap": true,
+    "validation_words_missing_from_train": 0,
+    "test_words_missing_from_train": 0,
+    "permutations_materialized": false,
+    "future_training_permutations": "dynamic per access"
+  }
+}

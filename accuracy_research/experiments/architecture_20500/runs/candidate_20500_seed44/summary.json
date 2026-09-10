@@ -1,0 +1,10 @@
+{
+  "component": "candidate",
+  "seed": 44,
+  "resume_mode": "new",
+  "best_validation_exact_accuracy": 0.7419512195121951,
+  "best_validation_word_position_accuracy": 0.8429268292682927,
+  "elapsed_seconds": 2029.09035459999,
+  "pretrained_weights": false,
+  "test_opened": false
+}

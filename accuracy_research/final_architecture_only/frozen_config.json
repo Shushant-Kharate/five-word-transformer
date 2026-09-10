@@ -1,0 +1,36 @@
+{
+  "status": "frozen_before_test",
+  "selection_split": "validation only",
+  "validation_exact_match_accuracy": 0.7370737073707371,
+  "validation_word_position_accuracy": 0.84004400440044,
+  "baseline_validation_exact_match_accuracy": 0.5697469746974697,
+  "pretrained_weights": false,
+  "external_models": false,
+  "external_data": false,
+  "candidate_search": "all 120 source-position permutations",
+  "component_order": [
+    "learned_unary_precedence_adjacency_transformer",
+    "candidate_sequence_transformer_seed42",
+    "candidate_sequence_transformer_seed43",
+    "candidate_sequence_transformer_seed44",
+    "train_only_word_position_prior",
+    "train_only_word_precedence_prior",
+    "train_only_word_adjacency_prior"
+  ],
+  "component_scales": [0.5, 2.0, 4.0, 0.5, 2.0, 0.5, 2.0],
+  "component_validation_standard_deviations": [
+    29.486431121826172,
+    7.951272964477539,
+    6.914358615875244,
+    7.354875087738037,
+    3.16410253842606,
+    5.518226039814066,
+    1.951754669008011
+  ],
+  "checkpoints": {
+    "adjacency": "accuracy_research/experiments/structured_ordering/runs/structured_word_char_adjacency_v3/best_model.pt",
+    "candidate_seed42": "accuracy_research/experiments/structured_ordering/runs/candidate_sequence_flatten_v3/best_model.pt",
+    "candidate_seed43": "accuracy_research/experiments/structured_ordering/runs/candidate_sequence_seed43_v4/best_model.pt",
+    "candidate_seed44": "accuracy_research/experiments/structured_ordering/runs/candidate_sequence_seed44_v6/best_model.pt"
+  }
+}

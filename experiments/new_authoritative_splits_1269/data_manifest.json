@@ -1,0 +1,28 @@
+{
+  "experiment": "new_authoritative_splits_1269",
+  "source_policy": "train.jsonl, validation.jsonl, and test.jsonl are authoritative; Dataset.jsonl is ignored",
+  "records": {
+    "train.jsonl": 1014,
+    "validation.jsonl": 128,
+    "test.jsonl": 127
+  },
+  "split_sizes": [1014, 128, 127],
+  "sha256": {
+    "train.jsonl": "5227274b77c03353acab2ed5c7ae9e831db3a2274eb550455a85b7c69b5b5e3f",
+    "validation.jsonl": "309b9bdb56549d221dd05755be0f4c60e3fba8f6713bf58e623127a2c50e405e",
+    "test.jsonl": "1623882e2ac69d23099db047d62e91a473549044c3509d39b5e8f5b4a3475648",
+    "tokenizer.json": "4c7fc05dabbbd94b2c27d5057968d71a285a01325b1bac92903979a56592ef47"
+  },
+  "tokenizer": {
+    "vocabulary_size": 1357,
+    "special_tokens": {
+      "[UNK]": 0,
+      "[PAD]": 1,
+      "[SOS]": 2,
+      "[EOS]": 3
+    }
+  },
+  "model_parameters": 494093,
+  "batches_per_epoch": 32,
+  "seed": 42
+}

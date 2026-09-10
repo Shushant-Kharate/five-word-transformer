@@ -1,0 +1,10 @@
+{
+  "component": "structured",
+  "seed": 42,
+  "resume_mode": "best_checkpoint_optimizer_reinitialized",
+  "best_validation_exact_accuracy": 0.7585365853658537,
+  "best_validation_word_position_accuracy": 0.8604878048780488,
+  "elapsed_seconds": 289.4540360000683,
+  "pretrained_weights": false,
+  "test_opened": false
+}

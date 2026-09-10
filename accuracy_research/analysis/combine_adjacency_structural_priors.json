@@ -1,0 +1,319 @@
+{
+  "architecture_only": true,
+  "external_data": false,
+  "protected_test_opened": false,
+  "checkpoint": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\accuracy_research\\experiments\\structured_ordering\\runs\\structured_word_char_adjacency_v3\\best_model.pt",
+  "checkpoint_epoch": 70,
+  "score_standard_deviations": {
+    "neural": 29.486431121826172,
+    "position": 3.16410253842606,
+    "precedence": 5.518226039814066,
+    "adjacency": 1.951754669008011
+  },
+  "standalone_neural": {
+    "exact_accuracy": 0.6468646864686468,
+    "word_position_accuracy": 0.7753575357535754
+  },
+  "best_combinations": [
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.25,
+        1.0
+      ],
+      "exact_accuracy": 0.6545654565456546,
+      "word_position_accuracy": 0.7916391639163917
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.0,
+        0.25
+      ],
+      "exact_accuracy": 0.6534653465346535,
+      "word_position_accuracy": 0.7854785478547854
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        1.0,
+        0.25,
+        0.0,
+        0.25
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7898789878987899
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.0,
+        0.5
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7898789878987899
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7898789878987899
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.25,
+        0.25
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7872387238723872
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.5,
+        0.5
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7872387238723872
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.5,
+        0.5
+      ],
+      "exact_accuracy": 0.6523652365236524,
+      "word_position_accuracy": 0.7841584158415842
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.5,
+        0.25,
+        0.25
+      ],
+      "exact_accuracy": 0.6512651265126512,
+      "word_position_accuracy": 0.7819581958195819
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.0,
+        0.0
+      ],
+      "exact_accuracy": 0.6512651265126512,
+      "word_position_accuracy": 0.7788778877887789
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7876787678767877
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7876787678767877
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        1.0,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7872387238723872
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7872387238723872
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7872387238723872
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.5,
+        0.25
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.785038503850385
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.785038503850385
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.0,
+        0.5
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7815181518151815
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7810781078107811
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7801980198019802
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "exact_accuracy": 0.6501650165016502,
+      "word_position_accuracy": 0.7788778877887789
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        1.0,
+        0.25,
+        0.0,
+        0.0
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7859185918591859
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        2.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7859185918591859
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7859185918591859
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7854785478547854
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        1.0,
+        0.25,
+        0.25
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7837183718371837
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.5,
+        0.0,
+        0.25
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7823982398239824
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.5,
+        0.25,
+        0.0
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7810781078107811
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.0,
+        0.25
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7788778877887789
+    },
+    {
+      "scales_neural_position_precedence_adjacency": [
+        4.0,
+        0.25,
+        0.25,
+        0.0
+      ],
+      "exact_accuracy": 0.6490649064906491,
+      "word_position_accuracy": 0.7788778877887789
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\dataset_20500.jsonl",
+  "dataset_sha256": "11a13f56048c8f9c4ec7a89d07076c22700a1b18c4a40f5911de238285d98710",
+  "records": 20500,
+  "unique_targets": 20500,
+  "unique_unordered_word_multisets": 20500,
+  "original_base": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\dataset_4581.jsonl",
+  "original_base_sha256": "630b64f8141f5badcbc869e4e5a725f8eeed00dc5e4b2f731709a7089cb776a9",
+  "retained_clean_base_records": 4561,
+  "dropped_base_duplicate_targets": 1,
+  "dropped_base_conflicting_multisets": 19,
+  "added_tatoeba_records": 15939,
+  "tatoeba_export": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\work\\tatoeba_eng_sentences_20260829.tsv.bz2",
+  "tatoeba_export_sha256": "d1a7d45ad531a2cf5ee3b3660aaef3bdf6e1915f247893afd40dacc3a90a8175",
+  "tatoeba_download_url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2",
+  "tatoeba_license": "CC BY 2.0 FR",
+  "tatoeba_attribution_url": "https://tatoeba.org/",
+  "selection": {
+    "raw_five_word_candidates": 141506,
+    "eligible_unique_nonconflicting_candidates": 93120,
+    "minimum_corpus_sentence_document_frequency_per_word": 20,
+    "maximum_selected_sentence_frequency_per_content_word": 250,
+    "highest_observed_selected_content_word_frequency": 250,
+    "stable_selection_seed": 20500
+  },
+  "validation": {
+    "fields_exactly_input_and_target": true,
+    "exactly_five_words": true,
+    "lowercase_ascii_alphabetic_only": true,
+    "contains_no_articles_a_an_the": true,
+    "input_target_multisets_equal": true,
+    "duplicate_targets": 0,
+    "conflicting_unordered_multisets": 0,
+    "correctly_ordered_inputs": 0
+  },
+  "vocabulary": {
+    "distinct_words": 3402,
+    "words_occurring_once": 862,
+    "words_occurring_at_most_five_times": 1764
+  },
+  "records_with_repeated_words": 642,
+  "note": "Split by target group before permutation augmentation; never randomly split expanded permutation rows."
+}

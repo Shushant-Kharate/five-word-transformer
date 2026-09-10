@@ -1,0 +1,43 @@
+{
+  "evaluation_type": "independent validation-only baseline reproduction",
+  "started_at_utc": "2026-08-31T13:03:12.363871+00:00",
+  "elapsed_seconds": 181.70469520008191,
+  "device": "cpu",
+  "python": "3.11.9",
+  "torch": "2.0.1+cpu",
+  "torch_cuda_runtime": null,
+  "cuda_available": false,
+  "checkpoint": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\experiments\\permutations_4581_grouped_epoch7\\weights\\best_model.pt",
+  "checkpoint_epoch_zero_based": 14,
+  "checkpoint_global_step": 203295,
+  "checkpoint_saved_validation_metrics": {
+    "validation_loss": 2.2876091047831846,
+    "records": 54540,
+    "exact_matches": 31074,
+    "exact_match_accuracy": 0.5697469746974697,
+    "word_position_accuracy": 0.7223065639897323,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0
+  },
+  "reproduced_validation_metrics": {
+    "records": 54540,
+    "exact_matches": 31074,
+    "exact_match_accuracy": 0.5697469746974697,
+    "word_position_accuracy": 0.7223065639897323,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "validation_loss": 2.2876091047831846
+  },
+  "metric_differences": {
+    "records": 0.0,
+    "exact_matches": 0.0,
+    "exact_match_accuracy": 0.0,
+    "word_position_accuracy": 0.0,
+    "output_validity_rate": 0.0,
+    "input_word_preservation_rate": 0.0
+  },
+  "parameter_count": 697708,
+  "vocabulary_size": 2412,
+  "prediction_file": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\accuracy_research\\baseline\\validation_predictions.jsonl",
+  "protected_test_opened": false
+}

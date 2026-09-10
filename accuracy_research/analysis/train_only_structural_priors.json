@@ -1,0 +1,203 @@
+{
+  "architecture_only": true,
+  "external_data": false,
+  "protected_test_opened": false,
+  "train_unique_groups": 3664,
+  "validation_unique_groups": 458,
+  "single_components": {
+    "position": {
+      "exact_accuracy": 0.37843784378437845,
+      "word_position_accuracy": 0.6393839383938393
+    },
+    "precedence": {
+      "exact_accuracy": 0.22442244224422442,
+      "word_position_accuracy": 0.44554455445544555
+    },
+    "adjacency": {
+      "exact_accuracy": 0.2915291529152915,
+      "word_position_accuracy": 0.41826182618261826
+    }
+  },
+  "best_grid_results": [
+    {
+      "scales": [
+        0.5,
+        0.25,
+        2.0
+      ],
+      "exact_accuracy": 0.6072607260726073,
+      "word_position_accuracy": 0.7713971397139714
+    },
+    {
+      "scales": [
+        1.0,
+        0.5,
+        4.0
+      ],
+      "exact_accuracy": 0.6072607260726073,
+      "word_position_accuracy": 0.7713971397139714
+    },
+    {
+      "scales": [
+        1.0,
+        0.25,
+        4.0
+      ],
+      "exact_accuracy": 0.605060506050605,
+      "word_position_accuracy": 0.766996699669967
+    },
+    {
+      "scales": [
+        1.0,
+        0.25,
+        2.0
+      ],
+      "exact_accuracy": 0.5995599559955995,
+      "word_position_accuracy": 0.7665566556655665
+    },
+    {
+      "scales": [
+        2.0,
+        0.5,
+        4.0
+      ],
+      "exact_accuracy": 0.5995599559955995,
+      "word_position_accuracy": 0.7665566556655665
+    },
+    {
+      "scales": [
+        0.5,
+        0.25,
+        1.0
+      ],
+      "exact_accuracy": 0.5973597359735974,
+      "word_position_accuracy": 0.766996699669967
+    },
+    {
+      "scales": [
+        1.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.5973597359735974,
+      "word_position_accuracy": 0.766996699669967
+    },
+    {
+      "scales": [
+        2.0,
+        1.0,
+        4.0
+      ],
+      "exact_accuracy": 0.5973597359735974,
+      "word_position_accuracy": 0.766996699669967
+    },
+    {
+      "scales": [
+        2.0,
+        0.25,
+        4.0
+      ],
+      "exact_accuracy": 0.592959295929593,
+      "word_position_accuracy": 0.7603960396039604
+    },
+    {
+      "scales": [
+        0.25,
+        0.25,
+        1.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.759075907590759
+    },
+    {
+      "scales": [
+        0.5,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.759075907590759
+    },
+    {
+      "scales": [
+        1.0,
+        1.0,
+        4.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.759075907590759
+    },
+    {
+      "scales": [
+        0.25,
+        0.0,
+        1.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.7581958195819581
+    },
+    {
+      "scales": [
+        0.5,
+        0.0,
+        2.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.7581958195819581
+    },
+    {
+      "scales": [
+        1.0,
+        0.0,
+        4.0
+      ],
+      "exact_accuracy": 0.5918591859185919,
+      "word_position_accuracy": 0.7581958195819581
+    },
+    {
+      "scales": [
+        0.25,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.5852585258525853,
+      "word_position_accuracy": 0.7588558855885589
+    },
+    {
+      "scales": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "exact_accuracy": 0.5852585258525853,
+      "word_position_accuracy": 0.7588558855885589
+    },
+    {
+      "scales": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "exact_accuracy": 0.5852585258525853,
+      "word_position_accuracy": 0.7588558855885589
+    },
+    {
+      "scales": [
+        2.0,
+        2.0,
+        4.0
+      ],
+      "exact_accuracy": 0.5852585258525853,
+      "word_position_accuracy": 0.7588558855885589
+    },
+    {
+      "scales": [
+        0.25,
+        0.0,
+        0.5
+      ],
+      "exact_accuracy": 0.581958195819582,
+      "word_position_accuracy": 0.7498349834983499
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "frozen_validation_check",
+  "split": "validation",
+  "architecture_only": true,
+  "pretrained_weights": false,
+  "external_models": false,
+  "external_data": false,
+  "frozen_config": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\accuracy_research\\final_architecture_only\\frozen_config.json",
+  "records": 54540,
+  "target_groups": 458,
+  "exact_matches": 40200,
+  "exact_match_accuracy": 0.7370737073707371,
+  "group_exact_match_accuracy": 0.7379912663755459,
+  "word_position_accuracy": 0.84004400440044,
+  "listwise_loss": 2.3750618097563496,
+  "output_validity_rate": 1.0,
+  "input_word_preservation_rate": 1.0,
+  "parameter_count": 2567081,
+  "inference_seconds": 1.2509423999581486,
+  "protected_test_evaluation_count": 0
+}

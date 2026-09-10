@@ -1,0 +1,32 @@
+{
+  "experiment": "pointer_assignment_v1",
+  "status": "complete",
+  "selection_split": "validation only",
+  "protected_test_opened": false,
+  "settings": {
+    "seed": 42,
+    "d_model": 128,
+    "nhead": 4,
+    "encoder_layers": 3,
+    "decoder_layers": 2,
+    "dim_feedforward": 512,
+    "dropout": 0.1,
+    "train_batch_size": 2048,
+    "validation_batch_size": 4096,
+    "epochs": 18,
+    "learning_rate": 0.0003,
+    "minimum_learning_rate": 2e-05,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "early_stopping_patience": 6,
+    "num_workers": 0
+  },
+  "parameter_count": 1467289,
+  "train_records": 433680,
+  "validation_records": 54540,
+  "best_epoch": 5,
+  "best_validation_exact_accuracy": 0.5407774110744408,
+  "baseline_validation_exact_accuracy": 0.5697469746974697,
+  "absolute_improvement": -0.028969563623028938,
+  "elapsed_seconds": 103.03460710006766
+}

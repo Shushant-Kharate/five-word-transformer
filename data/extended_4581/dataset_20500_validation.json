@@ -1,0 +1,11 @@
+{
+  "dataset": "C:\\Users\\Shushant\\Documents\\ChatGPT\\Whole transfoirmer\\accuracy_research_project\\data\\extended_4581\\dataset_20500.jsonl",
+  "sha256": "11a13f56048c8f9c4ec7a89d07076c22700a1b18c4a40f5911de238285d98710",
+  "records": 20500,
+  "unique_targets": 20500,
+  "unique_unordered_word_multisets": 20500,
+  "vocabulary_size": 3402,
+  "records_with_repeated_words": 642,
+  "errors": {},
+  "passed": true
+}

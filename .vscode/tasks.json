@@ -1,0 +1,121 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "20500: 1 Train structured seed 42",
+      "type": "process",
+      "command": "C:\\Users\\Shushant\\Desktop\\five_word_accuracy_gpu_env\\Scripts\\python.exe",
+      "args": [
+        "${workspaceFolder}\\accuracy_research\\experiments\\architecture_20500\\train.py",
+        "--component",
+        "structured",
+        "--seed",
+        "42",
+        "--name",
+        "structured_20500_seed42",
+        "--resume"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "20500: 2 Train candidate seed 42",
+      "type": "process",
+      "command": "C:\\Users\\Shushant\\Desktop\\five_word_accuracy_gpu_env\\Scripts\\python.exe",
+      "args": [
+        "${workspaceFolder}\\accuracy_research\\experiments\\architecture_20500\\train.py",
+        "--component",
+        "candidate",
+        "--seed",
+        "42",
+        "--name",
+        "candidate_20500_seed42",
+        "--resume"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "20500: 3 Train candidate seed 43",
+      "type": "process",
+      "command": "C:\\Users\\Shushant\\Desktop\\five_word_accuracy_gpu_env\\Scripts\\python.exe",
+      "args": [
+        "${workspaceFolder}\\accuracy_research\\experiments\\architecture_20500\\train.py",
+        "--component",
+        "candidate",
+        "--seed",
+        "43",
+        "--name",
+        "candidate_20500_seed43",
+        "--resume"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "20500: 4 Train candidate seed 44",
+      "type": "process",
+      "command": "C:\\Users\\Shushant\\Desktop\\five_word_accuracy_gpu_env\\Scripts\\python.exe",
+      "args": [
+        "${workspaceFolder}\\accuracy_research\\experiments\\architecture_20500\\train.py",
+        "--component",
+        "candidate",
+        "--seed",
+        "44",
+        "--name",
+        "candidate_20500_seed44",
+        "--resume"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "20500: Train complete ensemble sequentially",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "20500: 1 Train structured seed 42",
+        "20500: 2 Train candidate seed 42",
+        "20500: 3 Train candidate seed 43",
+        "20500: 4 Train candidate seed 44"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Install PyTorch separately from the official CUDA 12.8 index first:
+# python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+
+numpy==1.26.4
+tokenizers==0.13.3
+tqdm==4.66.1
+tensorboard==2.20.0
+matplotlib==3.10.6

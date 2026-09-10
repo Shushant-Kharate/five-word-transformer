@@ -1,0 +1,592 @@
+{
+  "architecture_only": true,
+  "external_data": false,
+  "protected_test_opened": false,
+  "checkpoint_epochs": {
+    "adjacency": 70,
+    "candidate": 98,
+    "candidate_seed43": 74,
+    "candidate_seed44": 80
+  },
+  "component_standard_deviations": [
+    29.486431121826172,
+    7.951272964477539,
+    6.914358615875244,
+    7.354875087738037,
+    3.16410253842606,
+    5.518226039814066,
+    1.951754669008011
+  ],
+  "standalone": {
+    "adjacency": {
+      "exact_accuracy": 0.6468646864686468,
+      "word_position_accuracy": 0.7753575357535754
+    },
+    "candidate": {
+      "exact_accuracy": 0.680968096809681,
+      "word_position_accuracy": 0.8081408140814081
+    },
+    "candidate_seed43": {
+      "exact_accuracy": 0.6963696369636964,
+      "word_position_accuracy": 0.8171617161716171
+    },
+    "candidate_seed44": {
+      "exact_accuracy": 0.680968096809681,
+      "word_position_accuracy": 0.8077007700770077
+    }
+  },
+  "neural_model_oracle_exact_accuracy": 0.7986798679867987,
+  "unanimous_prediction": {
+    "target_groups": 268,
+    "exact_accuracy": 0.8928571428571429
+  },
+  "best_ensemble_by_minimum_training_word_frequency": {
+    "1-1": {
+      "target_groups": 63,
+      "records": 7500,
+      "exact_accuracy": 0.68
+    },
+    "2-2": {
+      "target_groups": 30,
+      "records": 3600,
+      "exact_accuracy": 0.6666666666666666
+    },
+    "3-5": {
+      "target_groups": 112,
+      "records": 13380,
+      "exact_accuracy": 0.757847533632287
+    },
+    "6-10": {
+      "target_groups": 143,
+      "records": 17040,
+      "exact_accuracy": 0.7394366197183099
+    },
+    ">10": {
+      "target_groups": 110,
+      "records": 13020,
+      "exact_accuracy": 0.7649769585253456
+    }
+  },
+  "best_combinations": [
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7370737073707371,
+      "word_position_accuracy": 0.84004400440044
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.839,
+        2.703,
+        3.019,
+        3.325,
+        1.404,
+        0.685,
+        4.0
+      ],
+      "exact_accuracy": 0.735973597359736,
+      "word_position_accuracy": 0.8393839383938394
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7348734873487349,
+      "word_position_accuracy": 0.84004400440044
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.17,
+        0.631,
+        4.0,
+        0.782,
+        1.129,
+        0.228,
+        1.662
+      ],
+      "exact_accuracy": 0.7348734873487349,
+      "word_position_accuracy": 0.8396039603960396
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        3.41,
+        1.183,
+        3.286,
+        4.0,
+        0.188,
+        0.124,
+        3.487
+      ],
+      "exact_accuracy": 0.7337733773377337,
+      "word_position_accuracy": 0.8376237623762376
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.25,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7326732673267327,
+      "word_position_accuracy": 0.8382838283828383
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        1.0,
+        2.0
+      ],
+      "exact_accuracy": 0.7326732673267327,
+      "word_position_accuracy": 0.8382838283828383
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.783,
+        0.0,
+        4.0,
+        3.488,
+        0.0,
+        0.0,
+        2.93
+      ],
+      "exact_accuracy": 0.7326732673267327,
+      "word_position_accuracy": 0.8382838283828383
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.654,
+        1.331,
+        4.0,
+        0.725,
+        0.789,
+        0.375,
+        2.01
+      ],
+      "exact_accuracy": 0.7326732673267327,
+      "word_position_accuracy": 0.8378437843784379
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.188,
+        0.526,
+        4.0,
+        1.42,
+        0.0,
+        0.74,
+        1.295
+      ],
+      "exact_accuracy": 0.7326732673267327,
+      "word_position_accuracy": 0.836963696369637
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.67,
+        2.767,
+        1.991,
+        3.183,
+        0.663,
+        0.0,
+        4.0
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8393839383938394
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8385038503850385
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.761,
+        2.913,
+        2.392,
+        4.0,
+        1.725,
+        0.0,
+        2.853
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8385038503850385
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.25,
+        3.127,
+        2.077,
+        4.0,
+        0.955,
+        0.0,
+        3.54
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8376237623762376
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8371837183718371
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8367436743674368
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        4.0,
+        1.367,
+        3.9,
+        3.031,
+        0.595,
+        0.0,
+        2.375
+      ],
+      "exact_accuracy": 0.7315731573157316,
+      "word_position_accuracy": 0.8367436743674368
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        4.0,
+        0.0,
+        3.421,
+        3.346,
+        0.0,
+        0.0,
+        3.922
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.84004400440044
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8387238723872388
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.074,
+        2.398,
+        4.0,
+        1.121,
+        0.115,
+        0.0,
+        2.557
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8387238723872388
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.0,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8378437843784379
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.25,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8378437843784379
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.0,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.836963696369637
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.25,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.836963696369637
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.0,
+        2.0,
+        4.0,
+        0.5,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8365236523652365
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8365236523652365
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.5,
+        2.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8365236523652365
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        2.0,
+        4.0,
+        0.0,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8356435643564356
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.25,
+        2.0,
+        4.0,
+        0.0,
+        2.0,
+        0.5,
+        2.0
+      ],
+      "exact_accuracy": 0.7304730473047305,
+      "word_position_accuracy": 0.8343234323432344
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.768,
+        3.326,
+        1.266,
+        4.0,
+        1.369,
+        0.939,
+        3.665
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.838943894389439
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        2.291,
+        3.734,
+        4.0,
+        1.957,
+        0.0,
+        0.0,
+        3.143
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8385038503850385
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.829,
+        4.0,
+        3.982,
+        1.069,
+        0.441,
+        1.773,
+        3.29
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8385038503850385
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.089,
+        2.133,
+        1.587,
+        2.356,
+        0.377,
+        0.0,
+        4.0
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.838063806380638
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.813,
+        4.0,
+        2.768,
+        1.892,
+        0.354,
+        0.308,
+        3.567
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.838063806380638
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8367436743674368
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        0.0,
+        2.562,
+        4.0,
+        2.491,
+        2.025,
+        0.623,
+        1.162
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8367436743674368
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8363036303630363
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.0,
+        0.25,
+        1.0,
+        1.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8354235423542354
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.738,
+        0.943,
+        2.576,
+        4.0,
+        0.561,
+        0.0,
+        3.688
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8354235423542354
+    },
+    {
+      "scales_adjacency_candidate42_candidate43_candidate44_position_precedence_fixed_adjacency": [
+        1.467,
+        1.765,
+        2.007,
+        4.0,
+        0.0,
+        1.903,
+        1.007
+      ],
+      "exact_accuracy": 0.7293729372937293,
+      "word_position_accuracy": 0.8354235423542354
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\Shushant\\Desktop\\five_word_accuracy_gpu_env\\Scripts\\python.exe",
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "python.terminal.activateEnvironment": true
+}

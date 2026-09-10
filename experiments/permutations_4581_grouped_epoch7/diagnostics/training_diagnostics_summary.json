@@ -1,0 +1,21 @@
+{
+  "epochs_available": 3,
+  "best_epoch": 3,
+  "best_validation_exact_match_accuracy": 0.5426292629262927,
+  "best_validation_word_position_accuracy": 0.7135790245691236,
+  "best_validation_loss": 2.2513195560491694,
+  "latest_training_loss": 1.2994412755860634,
+  "latest_validation_loss": 2.2513195560491694,
+  "latest_generalization_gap": 0.9518782804631061,
+  "interpretation_guide": {
+    "both_losses_decrease": "The architecture is learning the available patterns.",
+    "training_decreases_validation_increases": "Overfitting signal; more epochs alone are unlikely to help, and more diverse base sentences or stronger regularization may be needed.",
+    "both_losses_high_and_flat": "Underfitting signal; optimization settings or model capacity may be insufficient.",
+    "important_limit": "Epoch curves suggest a failure mode but cannot alone prove whether data or architecture is the sole cause. A dataset-size learning-curve experiment is needed for stronger separation."
+  },
+  "graphs": [
+    "loss_vs_epoch.png",
+    "validation_accuracy_vs_epoch.png",
+    "generalization_gap_vs_epoch.png"
+  ]
+}

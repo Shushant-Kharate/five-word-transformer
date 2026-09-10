@@ -1,0 +1,542 @@
+[
+  {
+    "epoch": 0,
+    "training_loss": 3.1231456621923344,
+    "validation_loss": 2.3494991836505887,
+    "records": 54540,
+    "exact_matches": 26479,
+    "exact_match_accuracy": 0.4854968830216355,
+    "word_position_accuracy": 0.6782984965163183,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 1,
+    "training_loss": 1.4478415080969282,
+    "validation_loss": 2.2348071086787025,
+    "records": 54540,
+    "exact_matches": 28880,
+    "exact_match_accuracy": 0.5295196186285295,
+    "word_position_accuracy": 0.7065346534653465,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 2,
+    "training_loss": 1.2994412755860634,
+    "validation_loss": 2.2513195560491694,
+    "records": 54540,
+    "exact_matches": 29595,
+    "exact_match_accuracy": 0.5426292629262927,
+    "word_position_accuracy": 0.7135790245691236,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 3,
+    "training_loss": 1.248923923665363,
+    "validation_loss": 2.250776825154007,
+    "records": 54540,
+    "exact_matches": 28971,
+    "exact_match_accuracy": 0.5311881188118812,
+    "word_position_accuracy": 0.7028162816281628,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 1
+  },
+  {
+    "epoch": 4,
+    "training_loss": 1.2241839523795697,
+    "validation_loss": 2.2468110314646528,
+    "records": 54540,
+    "exact_matches": 29256,
+    "exact_match_accuracy": 0.5364136413641364,
+    "word_position_accuracy": 0.7042390905757242,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 2
+  },
+  {
+    "epoch": 5,
+    "training_loss": 1.2098532346798647,
+    "validation_loss": 2.2694631875544884,
+    "records": 54540,
+    "exact_matches": 29655,
+    "exact_match_accuracy": 0.5437293729372937,
+    "word_position_accuracy": 0.7062522918958563,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 6,
+    "training_loss": 1.2004022261727407,
+    "validation_loss": 2.287122479331419,
+    "records": 54540,
+    "exact_matches": 28992,
+    "exact_match_accuracy": 0.5315731573157316,
+    "word_position_accuracy": 0.7053392005867254,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 1
+  },
+  {
+    "epoch": 7,
+    "training_loss": 1.193741394325148,
+    "validation_loss": 2.266542605913118,
+    "records": 54540,
+    "exact_matches": 30218,
+    "exact_match_accuracy": 0.5540520718738541,
+    "word_position_accuracy": 0.7186065273193986,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 8,
+    "training_loss": 1.188767777714556,
+    "validation_loss": 2.296879590226479,
+    "records": 54540,
+    "exact_matches": 29558,
+    "exact_match_accuracy": 0.5419508617528419,
+    "word_position_accuracy": 0.7123725705903924,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 1
+  },
+  {
+    "epoch": 9,
+    "training_loss": 1.1852419191698949,
+    "validation_loss": 2.2916007214690635,
+    "records": 54540,
+    "exact_matches": 29767,
+    "exact_match_accuracy": 0.5457829116244958,
+    "word_position_accuracy": 0.712984965163183,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 2
+  },
+  {
+    "epoch": 10,
+    "training_loss": 1.1822139580340827,
+    "validation_loss": 2.2946120623926736,
+    "records": 54540,
+    "exact_matches": 29353,
+    "exact_match_accuracy": 0.5381921525485882,
+    "word_position_accuracy": 0.7131169783645032,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 3
+  },
+  {
+    "epoch": 11,
+    "training_loss": 1.1798234855396417,
+    "validation_loss": 2.287015303404374,
+    "records": 54540,
+    "exact_matches": 30180,
+    "exact_match_accuracy": 0.5533553355335533,
+    "word_position_accuracy": 0.7188082141547488,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 4
+  },
+  {
+    "epoch": 12,
+    "training_loss": 1.1778165854336349,
+    "validation_loss": 2.304817167235942,
+    "records": 54540,
+    "exact_matches": 30606,
+    "exact_match_accuracy": 0.5611661166116612,
+    "word_position_accuracy": 0.7207554088742207,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 13,
+    "training_loss": 1.1759440541289385,
+    "validation_loss": 2.306491070332263,
+    "records": 54540,
+    "exact_matches": 30134,
+    "exact_match_accuracy": 0.5525119178584526,
+    "word_position_accuracy": 0.7143894389438944,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 1
+  },
+  {
+    "epoch": 14,
+    "training_loss": 1.1746758746476307,
+    "validation_loss": 2.2876091047831846,
+    "records": 54540,
+    "exact_matches": 31074,
+    "exact_match_accuracy": 0.5697469746974697,
+    "word_position_accuracy": 0.7223065639897323,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": true,
+    "epochs_without_improvement": 0
+  },
+  {
+    "epoch": 15,
+    "training_loss": 1.173226181155882,
+    "validation_loss": 2.2831727866336107,
+    "records": 54540,
+    "exact_matches": 30604,
+    "exact_match_accuracy": 0.5611294462779611,
+    "word_position_accuracy": 0.7205463879721306,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 1
+  },
+  {
+    "epoch": 16,
+    "training_loss": 1.1722050251808582,
+    "validation_loss": 2.314703153610929,
+    "records": 54540,
+    "exact_matches": 29659,
+    "exact_match_accuracy": 0.5438027136046938,
+    "word_position_accuracy": 0.7102090209020903,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 2
+  },
+  {
+    "epoch": 17,
+    "training_loss": 1.1713180012158462,
+    "validation_loss": 2.2923532221926672,
+    "records": 54540,
+    "exact_matches": 30732,
+    "exact_match_accuracy": 0.5634763476347635,
+    "word_position_accuracy": 0.7235240190685736,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 3
+  },
+  {
+    "epoch": 18,
+    "training_loss": 1.1701549580782855,
+    "validation_loss": 2.307552608990783,
+    "records": 54540,
+    "exact_matches": 30260,
+    "exact_match_accuracy": 0.5548221488815548,
+    "word_position_accuracy": 0.7132783278327833,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be counted on",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 4
+  },
+  {
+    "epoch": 19,
+    "training_loss": 1.1695752344103323,
+    "validation_loss": 2.2995563076929946,
+    "records": 54540,
+    "exact_matches": 30288,
+    "exact_match_accuracy": 0.5553355335533553,
+    "word_position_accuracy": 0.7143931059772644,
+    "output_validity_rate": 1.0,
+    "input_word_preservation_rate": 1.0,
+    "examples": [
+      {
+        "source": "be can counted he on",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      },
+      {
+        "source": "be can counted on he",
+        "target": "he can be counted on",
+        "prediction": "he can be on counted",
+        "ended_with_eos": true
+      }
+    ],
+    "is_best": false,
+    "epochs_without_improvement": 5
+  }
+]

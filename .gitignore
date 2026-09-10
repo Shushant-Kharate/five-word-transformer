@@ -1,0 +1,27 @@
+# Local Python environments
+.venv/
+.venv-*/
+myenv/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# TensorBoard/runtime logs
+/runs/
+events.out.tfevents.*
+
+# Regenerable training caches and intermediate checkpoints
+**/cache/
+**/last_checkpoint.pt
+**/tmodel_*.pt
+
+# Materialized permutation duplicates; generation code and grouped splits remain
+/data/permutations_4581/dataset_all_permutations.jsonl
+/data/permutations_4581/shuffled/
+
+# Common local/editor noise
+.DS_Store
+Thumbs.db
+*.log
